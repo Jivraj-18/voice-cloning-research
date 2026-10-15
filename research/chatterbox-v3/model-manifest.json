@@ -1,0 +1,23 @@
+{
+  "repository": "ResembleAI/chatterbox",
+  "variant": "Multilingual V3",
+  "revision": "e2d6902dd4c1301892935d0a0277325551e8060e",
+  "code_repository": "https://github.com/resemble-ai/chatterbox",
+  "code_revision": "5de7a54aa4e5e2baadb0182dde554908b48b85c2",
+  "files": {
+    "t3_mtl23ls_v3.safetensors": 2143989928,
+    "s3gen.pt": 1057165844,
+    "ve.pt": 5698626,
+    "conds.pt": 107374,
+    "grapheme_mtl_merged_expanded_v1.json": 70011,
+    "Cangjie5_TC.json": 1920163
+  },
+  "total_model_asset_bytes": 3208951946,
+  "runtime_file_cache_tag_bytes": 191,
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 2050",
+    "physical_vram_mib": 4096,
+    "pytorch_visible_vram_bytes": 3953983488
+  },
+  "resource_metric_note": "Files are original downloaded assets. The first five cases ran with FP32 weights; the last three ran with FP16 weights and CUDA autocast."
+}

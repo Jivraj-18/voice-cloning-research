@@ -1,0 +1,254 @@
+[
+  {
+    "id": "01_code_switch",
+    "title": "Hindi-English code-switching",
+    "script": "आज मैंने एक नया AI model try किया। Honestly, इसकी आवाज़ बिल्कुल मेरी जैसी लग रही है।",
+    "listen_for": "Listen for accent changes, pronunciation of English words inside Hindi, skipped words, and preservation of speaker identity.",
+    "omnivoice": {
+      "model": "Serveurperso/OmniVoice-GGUF · Q8_0 (base: k2-fsa/OmniVoice)",
+      "asset_bytes": 945284608,
+      "generation_seconds": 9.141421241001808,
+      "audio_seconds": 10.76,
+      "real_time_factor": 0.8495744647771197,
+      "gpu_total_peak_mib": 1596.0,
+      "gpu_process_peak_mib": 1504.0,
+      "gpu_mean_utilization_pct": 73.04347826086956,
+      "gpu_peak_power_w": 43.62,
+      "gpu_energy_estimate_wh": 0.09101369252701601,
+      "precision": "Q8_0 GGUF"
+    },
+    "chatterbox": {
+      "model": "ResembleAI/chatterbox · Multilingual V3",
+      "asset_bytes": 3208951946,
+      "generation_seconds": 18.327577784002642,
+      "audio_seconds": 6.04,
+      "real_time_factor": 3.0343671827818945,
+      "pytorch_allocated_peak_mib": 3284.25048828125,
+      "pytorch_reserved_peak_mib": 3450.0,
+      "precision": "FP32",
+      "sample_count": 0
+    }
+  },
+  {
+    "id": "02_numbers",
+    "title": "Numbers, dates, currency and abbreviations",
+    "script": "My appointment is on October 21st at 9:45 AM. The bill is ₹1,249.50, including GST.",
+    "listen_for": "Check October twenty-first, nine forty-five A.M., the rupee amount including fifty paise, and G-S-T. Alternate natural readings are acceptable if the value stays correct.",
+    "omnivoice": {
+      "model": "Serveurperso/OmniVoice-GGUF · Q8_0 (base: k2-fsa/OmniVoice)",
+      "asset_bytes": 945284608,
+      "generation_seconds": 10.282995945002767,
+      "audio_seconds": 14.44,
+      "real_time_factor": 0.7121188327564244,
+      "gpu_total_peak_mib": 1628.0,
+      "gpu_process_peak_mib": 1524.0,
+      "gpu_mean_utilization_pct": 70.58823529411765,
+      "gpu_peak_power_w": 44.34,
+      "gpu_energy_estimate_wh": 0.107133489326636,
+      "precision": "Q8_0 GGUF"
+    },
+    "chatterbox": {
+      "model": "ResembleAI/chatterbox · Multilingual V3",
+      "asset_bytes": 3208951946,
+      "generation_seconds": 9.59395042500546,
+      "audio_seconds": 8.52,
+      "real_time_factor": 1.126050519366838,
+      "pytorch_allocated_peak_mib": 3332.23828125,
+      "pytorch_reserved_peak_mib": 3558.0,
+      "precision": "FP32",
+      "sample_count": 0
+    }
+  },
+  {
+    "id": "03_emotion",
+    "title": "Questions and emotion",
+    "script": "You actually finished it? That’s incredible! Wait… did you delete the original recording?",
+    "listen_for": "Listen for a questioning first phrase, excitement, a pause, and concern. Punctuation alone is being tested; no emotion tags or style instructions are supplied.",
+    "omnivoice": {
+      "model": "Serveurperso/OmniVoice-GGUF · Q8_0 (base: k2-fsa/OmniVoice)",
+      "asset_bytes": 945284608,
+      "generation_seconds": 8.599131513998145,
+      "audio_seconds": 10.47,
+      "real_time_factor": 0.8213115104105201,
+      "gpu_total_peak_mib": 1606.0,
+      "gpu_process_peak_mib": 1490.0,
+      "gpu_mean_utilization_pct": 68.6046511627907,
+      "gpu_peak_power_w": 45.2,
+      "gpu_energy_estimate_wh": 0.0912383858250247,
+      "precision": "Q8_0 GGUF"
+    },
+    "chatterbox": {
+      "model": "ResembleAI/chatterbox · Multilingual V3",
+      "asset_bytes": 3208951946,
+      "generation_seconds": 5.033385649003321,
+      "audio_seconds": 4.0,
+      "real_time_factor": 1.2583464122508303,
+      "pytorch_allocated_peak_mib": 3247.31005859375,
+      "pytorch_reserved_peak_mib": 3516.0,
+      "precision": "FP32",
+      "sample_count": 0
+    }
+  },
+  {
+    "id": "04_names_technical",
+    "title": "Names and technical vocabulary",
+    "script": "Jivraj is testing PostgreSQL, Kubernetes, and ElevenLabs on an NVIDIA RTX 2050.",
+    "listen_for": "Check your name, PostgreSQL, Kubernetes, ElevenLabs, NVIDIA, R-T-X and the model number. Note spelling-out, omissions or odd stress.",
+    "omnivoice": {
+      "model": "Serveurperso/OmniVoice-GGUF · Q8_0 (base: k2-fsa/OmniVoice)",
+      "asset_bytes": 945284608,
+      "generation_seconds": 8.481190890997823,
+      "audio_seconds": 10.92,
+      "real_time_factor": 0.7766658325089582,
+      "gpu_total_peak_mib": 1592.0,
+      "gpu_process_peak_mib": 1500.0,
+      "gpu_mean_utilization_pct": 65.83333333333333,
+      "gpu_peak_power_w": 45.89,
+      "gpu_energy_estimate_wh": 0.09030566136340301,
+      "precision": "Q8_0 GGUF"
+    },
+    "chatterbox": {
+      "model": "ResembleAI/chatterbox · Multilingual V3",
+      "asset_bytes": 3208951946,
+      "generation_seconds": 8.58049292999931,
+      "audio_seconds": 7.76,
+      "real_time_factor": 1.105733624999911,
+      "pytorch_allocated_peak_mib": 3315.681640625,
+      "pytorch_reserved_peak_mib": 3516.0,
+      "precision": "FP32",
+      "sample_count": 0
+    }
+  },
+  {
+    "id": "05_consistency_take_1",
+    "title": "Consistency take 1",
+    "script": "I started this experiment with a simple question: can a small local model sound like me? Now I am checking whether it stays consistent. Listen to my accent, the pauses between sentences, and the way I finish each phrase. A familiar voice should remain familiar from the first word to the last.",
+    "listen_for": "Compare takes 1–3 for identity, accent, pacing, completeness and noise. Different explicit seeds test variation across sampled takes.",
+    "omnivoice": {
+      "model": "Serveurperso/OmniVoice-GGUF · Q8_0 (base: k2-fsa/OmniVoice)",
+      "asset_bytes": 945284608,
+      "generation_seconds": 25.619173603998206,
+      "audio_seconds": 34.93,
+      "real_time_factor": 0.7334432752361353,
+      "gpu_total_peak_mib": 1618.0,
+      "gpu_process_peak_mib": 1514.0,
+      "gpu_mean_utilization_pct": 70.1953125,
+      "gpu_peak_power_w": 46.12,
+      "gpu_energy_estimate_wh": 0.2888547094610002,
+      "precision": "Q8_0 GGUF"
+    },
+    "chatterbox": {
+      "model": "ResembleAI/chatterbox · Multilingual V3",
+      "asset_bytes": 3208951946,
+      "generation_seconds": 17.044567142998858,
+      "audio_seconds": 14.52,
+      "real_time_factor": 1.1738682605371114,
+      "pytorch_allocated_peak_mib": 3477.62548828125,
+      "pytorch_reserved_peak_mib": 3556.0,
+      "precision": "FP32",
+      "sample_count": 0
+    }
+  },
+  {
+    "id": "06_consistency_take_2",
+    "title": "Consistency take 2",
+    "script": "I started this experiment with a simple question: can a small local model sound like me? Now I am checking whether it stays consistent. Listen to my accent, the pauses between sentences, and the way I finish each phrase. A familiar voice should remain familiar from the first word to the last.",
+    "listen_for": "Compare against the identical script in takes 1 and 3; seed is the only requested generation setting changed.",
+    "omnivoice": {
+      "model": "Serveurperso/OmniVoice-GGUF · Q8_0 (base: k2-fsa/OmniVoice)",
+      "asset_bytes": 945284608,
+      "generation_seconds": 26.163892955999472,
+      "audio_seconds": 35.4,
+      "real_time_factor": 0.7390930213559174,
+      "gpu_total_peak_mib": 1618.0,
+      "gpu_process_peak_mib": 1514.0,
+      "gpu_mean_utilization_pct": 71.8076923076923,
+      "gpu_peak_power_w": 46.99,
+      "gpu_energy_estimate_wh": 0.2973818078378836,
+      "precision": "Q8_0 GGUF"
+    },
+    "chatterbox": {
+      "model": "ResembleAI/chatterbox · Multilingual V3",
+      "asset_bytes": 3208951946,
+      "generation_seconds": 12.656053955004609,
+      "audio_seconds": 18.72,
+      "real_time_factor": 0.6760712582801608,
+      "pytorch_allocated_peak_mib": 1882.5390625,
+      "pytorch_reserved_peak_mib": 2044.0,
+      "precision": "FP16 + autocast",
+      "sample_count": 46,
+      "sampled_total_gpu_peak_mib": 2260,
+      "mean_gpu_utilization_pct": 76.80434782608695,
+      "peak_board_power_w": 53.94,
+      "sampled_board_energy_estimate_wh": 0.11906323363749999
+    }
+  },
+  {
+    "id": "07_consistency_take_3",
+    "title": "Consistency take 3",
+    "script": "I started this experiment with a simple question: can a small local model sound like me? Now I am checking whether it stays consistent. Listen to my accent, the pauses between sentences, and the way I finish each phrase. A familiar voice should remain familiar from the first word to the last.",
+    "listen_for": "Compare against takes 1 and 2. Different WAV hashes alone do not establish an audible difference.",
+    "omnivoice": {
+      "model": "Serveurperso/OmniVoice-GGUF · Q8_0 (base: k2-fsa/OmniVoice)",
+      "asset_bytes": 945284608,
+      "generation_seconds": 26.14490699000453,
+      "audio_seconds": 35.28,
+      "real_time_factor": 0.7410687922336884,
+      "gpu_total_peak_mib": 1618.0,
+      "gpu_process_peak_mib": 1514.0,
+      "gpu_mean_utilization_pct": 68.2824427480916,
+      "gpu_peak_power_w": 47.26,
+      "gpu_energy_estimate_wh": 0.3020672438393036,
+      "precision": "Q8_0 GGUF"
+    },
+    "chatterbox": {
+      "model": "ResembleAI/chatterbox · Multilingual V3",
+      "asset_bytes": 3208951946,
+      "generation_seconds": 9.264238009003748,
+      "audio_seconds": 16.28,
+      "real_time_factor": 0.569056388759444,
+      "pytorch_allocated_peak_mib": 1834.54931640625,
+      "pytorch_reserved_peak_mib": 1984.0,
+      "precision": "FP16 + autocast",
+      "sample_count": 34,
+      "sampled_total_gpu_peak_mib": 2200,
+      "mean_gpu_utilization_pct": 94.5,
+      "peak_board_power_w": 53.76,
+      "sampled_board_energy_estimate_wh": 0.1012696476361111
+    }
+  },
+  {
+    "id": "08_long_narration",
+    "title": "Long narration",
+    "script": "This morning, I decided to take the long way to the neighbourhood market. Usually, I rush through the same streets with headphones on, thinking about the next task. Today, I left the headphones at home and paid attention to the sounds around me.\n\nA bicycle bell rang behind me. Someone was watering plants on a balcony. At a small tea stall, two friends were arguing about whether the best ideas arrive early in the morning or late at night. I wanted to join their discussion, but the smell of fresh bread pulled me towards the bakery instead.\n\nInside, the shopkeeper asked, “The usual?” I almost said yes. Then I noticed a handwritten sign beside a tray of cinnamon rolls. “Actually, I'll try something different today,” I replied. It was a small decision, but it changed the rhythm of the morning.\n\nOn the walk home, I thought about the project waiting on my laptop. Yesterday, a short recording had become a voice that sounded surprisingly familiar: my own. The exciting part was hearing it speak a sentence I had never recorded. The harder question was whether it could keep sounding like me through a whole story.\n\nSo this paragraph is part of the experiment. Does the voice stay steady? Do the questions sound like questions? Are the pauses comfortable, or do they break the flow? Listen closely as one paragraph becomes the next.\n\nBy the time I reached home, the bread was still warm. I made a cup of tea, opened the laptop, and wrote down one simple rule: a convincing first sentence is a beginning. A convincing final sentence is the real test.",
+    "listen_for": "Listen for voice drift, paragraph joins, missing or repeated sentences, uneven pacing, unnatural pauses, and whether the final paragraph still sounds like you.",
+    "omnivoice": {
+      "model": "Serveurperso/OmniVoice-GGUF · Q8_0 (base: k2-fsa/OmniVoice)",
+      "asset_bytes": 945284608,
+      "generation_seconds": 134.31300048299454,
+      "audio_seconds": 186.06,
+      "real_time_factor": 0.7218800412931019,
+      "gpu_total_peak_mib": 1632.0,
+      "gpu_process_peak_mib": 1528.0,
+      "gpu_mean_utilization_pct": 71.08792846497765,
+      "gpu_peak_power_w": 49.91,
+      "gpu_energy_estimate_wh": 1.5818448526869218,
+      "precision": "Q8_0 GGUF"
+    },
+    "chatterbox": {
+      "model": "ResembleAI/chatterbox · Multilingual V3",
+      "asset_bytes": 3208951946,
+      "generation_seconds": 31.032294175005518,
+      "audio_seconds": 39.96,
+      "real_time_factor": 0.7765839383134514,
+      "pytorch_allocated_peak_mib": 2472.95751953125,
+      "pytorch_reserved_peak_mib": 2794.0,
+      "precision": "FP16 + autocast",
+      "sample_count": 112,
+      "sampled_total_gpu_peak_mib": 3010,
+      "mean_gpu_utilization_pct": 95.77678571428571,
+      "peak_board_power_w": 52.93,
+      "sampled_board_energy_estimate_wh": 0.38180088703194465
+    }
+  }
+]

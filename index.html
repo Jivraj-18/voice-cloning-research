@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="A measured local comparison of OmniVoice and Chatterbox Multilingual V3 voice cloning.">
-  <title>Voice cloning research — OmniVoice vs Chatterbox</title>
+  <title>Voice cloning research — OmniVoice-GGUF and Chatterbox V3</title>
   <style>
     :root{color-scheme:dark;--bg:#15121a;--card:#211b27;--line:#514558;--ink:#f5edf7;--muted:#c8bbcf;--accent:#f092b4}
     *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#302238,var(--bg) 52%);color:var(--ink);font:16px/1.6 system-ui,sans-serif}
@@ -13,14 +13,14 @@
 </head>
 <body><main>
   <div class="eyebrow">Local voice cloning experiment</div>
-  <h1>OmniVoice vs Chatterbox</h1>
-  <p class="lede">A practical test of two local voice-cloning models using the same eight scripts and one private reference recording.</p>
+  <h1>Two local voice-cloning models</h1>
+  <p class="lede">Serveurperso/OmniVoice-GGUF Q8_0 (base model k2-fsa/OmniVoice) compared with ResembleAI/chatterbox Multilingual V3, using the same eight scripts and one private reference recording.</p>
   <div class="notice"><strong>Listening verdict:</strong> OmniVoice was the clear favorite for the author. Chatterbox was judged “not good” overall, with OmniVoice doing better in several respects. Per-clip ratings and the specific dimensions are still open.</div>
   <div class="stats"><div class="stat"><b>8</b>matched scripts</div><div class="stat"><b>2</b>local model setups</div><div class="stat"><b>4 GB</b>RTX 2050</div><div class="stat"><b>$0</b>paid synthesis</div></div>
   <section class="grid">
     <article class="card"><h2>Compare the models</h2><p>Play the same prompt from OmniVoice and Chatterbox back to back. The page includes scripts, listening cues, and note fields stored in your browser.</p><a class="button" href="research/chatterbox-v3/index.html">Open A/B comparison</a></article>
-    <article class="card"><h2>OmniVoice results</h2><p>Stress tests, GPU telemetry, prompts, output files, and the initial local cloning experiment.</p><a class="button" href="research/index.html">Open OmniVoice worksheet</a></article>
-    <article class="card"><h2>Chatterbox V3 results</h2><p>Timings, memory, model revisions, successful outputs, and the FP32-to-FP16 constraint on 4 GB VRAM.</p><a class="button" href="https://github.com/Jivraj-18/voice-cloning-research/blob/main/research/chatterbox-v3/README.md">Read the Chatterbox report</a></article>
+    <article class="card"><h2>Serveurperso/OmniVoice-GGUF · Q8_0</h2><p>Base model k2-fsa/OmniVoice. Stress tests, per-case GPU telemetry, prompts, and outputs.</p><a class="button" href="research/index.html">Open OmniVoice worksheet</a></article>
+    <article class="card"><h2>ResembleAI/chatterbox · Multilingual V3</h2><p>Per-case timing and memory, model revisions, outputs, and the FP32-to-FP16 constraint on 4 GB VRAM.</p><a class="button" href="https://github.com/Jivraj-18/voice-cloning-research/blob/main/research/chatterbox-v3/README.md">Read the Chatterbox report</a></article>
   </section>
   <footer>The reference recording is excluded. Generated clips contain the author's cloned voice. Chatterbox here means the upstream local model, not NVIDIA NIM. Quality conclusions are personal listening judgments; machine timings and waveform statistics do not grade voice similarity.</footer>
 </main></body></html>

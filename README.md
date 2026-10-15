@@ -1,6 +1,6 @@
 # Voice cloning: local model research
 
-A small, personal comparison of local voice cloning with VoiceStudio's OmniVoice setup and upstream Chatterbox Multilingual V3. Both models used the same eight scripts and the same private local reference recording. The recording itself is not included; generated audio does sound like the author's voice.
+A small, personal comparison of two local voice-cloning setups: **Serveurperso/OmniVoice-GGUF Q8_0** (base model `k2-fsa/OmniVoice`) and **ResembleAI/chatterbox Multilingual V3**. Both used the same eight scripts and the same private local reference recording. The recording itself is not included; generated audio does sound like the author's voice.
 
 ## Listening results
 
