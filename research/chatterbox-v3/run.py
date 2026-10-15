@@ -42,7 +42,7 @@ def pcm_metrics(path):
 
 def main():
     if not torch.cuda.is_available(): raise RuntimeError("CUDA is unavailable; refusing to silently run on CPU")
-    if REFERENCE is None: raise RuntimeError("Set VOICE_REFERENCE to your own local reference WAV; source recordings are not part of this bundle")
+    if REFERENCE is None: raise RuntimeError("Set VOICE_REFERENCE to your own local reference WAV; the published reference-input.wav is included at the research root")
     if not REFERENCE.is_file(): raise FileNotFoundError(f"Voice reference not found: {REFERENCE}")
     cases = json.loads((PROJECT / "research/tests.json").read_text())
     manifest = {"model": "ResembleAI/chatterbox", "variant": "Chatterbox Multilingual V3", "model_revision": MODEL_REVISION,

@@ -1,6 +1,6 @@
 # Chatterbox Multilingual V3 voice-cloning run
 
-Run date: 2026-10-15. All eight prompts in [`../tests.json`](../tests.json) were synthesized from the same local voice reference used for the OmniVoice baseline. The reference file itself was not copied into this folder or uploaded. **Audio quality and voice similarity are awaiting the user's listening review.**
+Run date: 2026-10-15. All eight prompts in [`../tests.json`](../tests.json) were synthesized from the same local voice reference used for the OmniVoice baseline. The exact shared input is published at [`../reference-input.wav`](../reference-input.wav) for reproducibility. It is the author's real voice recording. **Audio quality and voice similarity are awaiting the user's listening review.**
 
 Use [`index.html`](index.html) for side-by-side audio players and the exact scripts, or inspect the [machine-readable results](results.json) and [CSV summary](results.csv).
 
@@ -35,7 +35,7 @@ The model returned a full-scale peak in each PCM16 file. Samples at the maximum 
 
 ## Reproduce
 
-The isolated environment and model files live under ignored `setup/` and `models/` folders, not in this research bundle. To rerun locally, set `VOICE_REFERENCE` to your own reference WAV before invoking [`run.py`](run.py); build the A/B player with [`build_comparison.py`](build_comparison.py). Prompts, seeds, generation settings, timing, GPU counters, hashes and run metadata are included here. The listening page stores note drafts in browser local storage only.
+The isolated environment and model files live under ignored `setup/` and `models/` folders, not in this research bundle. To rerun locally, set `VOICE_REFERENCE` to `../reference-input.wav` (or your own authorized reference WAV) before invoking [`run.py`](run.py); build the A/B player with [`build_comparison.py`](build_comparison.py). Prompts, seeds, generation settings, timing, GPU counters, hashes and run metadata are included here. The listening page stores note drafts in browser local storage only.
 
 ## Review status
 

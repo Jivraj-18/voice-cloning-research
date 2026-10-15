@@ -4,10 +4,7 @@ Use this `research/` folder as the repository contents, or keep it as a
 subfolder in an existing repository. It includes generated audio, exact
 scripts, measurements, raw telemetry, reproduction scripts and local patches.
 
-Do not upload the parent workspace's `models/`, `setup/`, or `outputs/`:
-those contain large model/runtime downloads and the original voice recording.
-A parent `.gitignore` excludes them. The source reference recording is not in
-this research folder; the generated audio does contain Jivraj's cloned voice.
+Do not upload the parent workspace's `models/`, `setup/`, or `outputs/`; those contain large model/runtime downloads. By request, the source reference recording is included as `research/reference-input.wav`. It is Jivraj's real voice, so publishing it makes that voice recording public. Generated audio also contains the cloned voice.
 
 To add your listening observations:
 

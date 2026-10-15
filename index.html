@@ -14,7 +14,8 @@
 <body><main>
   <div class="eyebrow">Local voice cloning experiment</div>
   <h1>Two local voice-cloning models</h1>
-  <p class="lede">Serveurperso/OmniVoice-GGUF Q8_0 (base model k2-fsa/OmniVoice) compared with ResembleAI/chatterbox Multilingual V3, using the same eight scripts and one private reference recording.</p>
+  <p class="lede">Serveurperso/OmniVoice-GGUF Q8_0 (base model k2-fsa/OmniVoice) compared with ResembleAI/chatterbox Multilingual V3, using the same eight scripts and the same reference recording, now included below.</p>
+  <section class="card"><h2>Original voice-cloning input</h2><p>The exact 10.344-second, 24 kHz mono PCM16 reference used for both models. This is the author's real voice recording and is public in this repository.</p><audio controls preload="none" src="research/reference-input.wav"></audio><a href="research/reference-input.wav" download>Download reference WAV</a></section>
   <div class="notice"><strong>Listening verdict:</strong> OmniVoice was the clear favorite for the author. Chatterbox was judged “not good” overall, with OmniVoice doing better in several respects. Per-clip ratings and the specific dimensions are still open.</div>
   <div class="stats"><div class="stat"><b>8</b>matched scripts</div><div class="stat"><b>2</b>local model setups</div><div class="stat"><b>4 GB</b>RTX 2050</div><div class="stat"><b>$0</b>paid synthesis</div></div>
   <section class="grid">
@@ -22,5 +23,5 @@
     <article class="card"><h2>Serveurperso/OmniVoice-GGUF · Q8_0</h2><p>Base model k2-fsa/OmniVoice. Stress tests, per-case GPU telemetry, prompts, and outputs.</p><a class="button" href="research/index.html">Open OmniVoice worksheet</a></article>
     <article class="card"><h2>ResembleAI/chatterbox · Multilingual V3</h2><p>Per-case timing and memory, model revisions, outputs, and the FP32-to-FP16 constraint on 4 GB VRAM.</p><a class="button" href="https://github.com/Jivraj-18/voice-cloning-research/blob/main/research/chatterbox-v3/README.md">Read the Chatterbox report</a></article>
   </section>
-  <footer>The reference recording is excluded. Generated clips contain the author's cloned voice. Chatterbox here means the upstream local model, not NVIDIA NIM. Quality conclusions are personal listening judgments; machine timings and waveform statistics do not grade voice similarity.</footer>
+  <footer>The original reference and generated clips contain the author's voice. Chatterbox here means the upstream local model, not NVIDIA NIM. Quality conclusions are personal listening judgments; machine timings and waveform statistics do not grade voice similarity.</footer>
 </main></body></html>

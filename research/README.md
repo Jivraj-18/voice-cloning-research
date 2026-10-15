@@ -19,7 +19,7 @@ That comment applies to the earlier short clone. It is not a rating for the clip
 - Runtime: omnivoice.cpp commit 886fc079838ca7400cb2b42b36e2a65aa1daabe8, compiled for CUDA sm_86.
 - Hardware: Intel Core i5-12450H, approximately 16 GB system RAM, NVIDIA RTX 2050 with 4,096 MiB VRAM.
 - Reference: 10.34 seconds, 24 kHz mono PCM16 WAV, with its exact transcript supplied.
-- Reference recording is not included. Generated clips, prompts, seeds, hashes, and reference metadata are included.
+- The exact reference recording is included as [reference-input.wav](reference-input.wav) for reproducibility. It is 10.344 seconds of 24 kHz mono PCM16 audio. Publishing it makes the author's real voice public. Generated clips, prompts, seeds, hashes, and reference metadata are also included.
 - No model training or fine-tuning. All runs use the same saved voice reference.
 - One request at a time, with a one-second gap. Different explicit seeds are used for the three consistency takes.
 - Model files and app dependencies were already installed. Setup/download/compilation time is excluded.
@@ -167,7 +167,7 @@ The normal minimum monthly purchase for Instant Voice Cloning is Starter at $6 b
 ## Reproduce
 
 1. Use VoiceStudio v0.5.6 with the pinned runtime and Q8 files listed in model-manifest.json; review patches/README.md.
-2. Create an authorized saved voice with a short PCM WAV and its exact transcript. The original reference is omitted, so exact replication of this speaker requires separately providing that recording.
+2. Use the included reference-input.wav and exact transcript to reproduce the same speaker, subject to the model and software terms.
 3. Copy run_experiment.py, analyse_telemetry.py, build_report.py, tests.json and reference-metadata.json to a fresh run folder with empty audio/ and prompts/ subfolders; install requests, numpy and psutil in your chosen Python environment.
 4. Save each test text under prompts/<id>.txt. Run the two telemetry commands below in separate terminals, then run the experiment. Stop telemetry after the last case.
 

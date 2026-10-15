@@ -38,7 +38,7 @@ listens on 127.0.0.1:3900. Revalidate these adaptations when changing app versio
 
 The saved voice is a 24 kHz mono PCM16 WAV with an exact reference transcript.
 The UI accepted the original MP3 but the C++ reader rejected it; converting it
-to WAV resolved that issue. Reference audio is omitted from this publication.
+to WAV resolved that issue. The exact reference audio is published at `../reference-input.wav` by the author's request. This exposes the author's real voice recording.
 
 The patch context comes from VoiceStudio, licensed AGPL-3.0. Application and
 model licenses are separate. See the upstream LICENSE and model card.

@@ -2,10 +2,11 @@
   "profile_name": "Jivraj",
   "reference_transcript": "Hi, I'm Jivraj. I'm testing a local voice tool on my laptop and this is my normal voice.",
   "format": "24 kHz mono PCM16 WAV",
-  "source_recording_included": false,
+  "source_recording_included": true,
   "duration_seconds": 10.344,
   "sample_rate_hz": 24000,
   "channels": 1,
   "sample_width_bytes": 2,
-  "sha256": "0b705a2c19291a3234720f371ff55a98ec6b0fe591e42624dcb2fd48c653decc"
+  "sha256": "0b705a2c19291a3234720f371ff55a98ec6b0fe591e42624dcb2fd48c653decc",
+  "repository_path": "research/reference-input.wav"
 }

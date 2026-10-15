@@ -180,7 +180,7 @@
       "sampled_total_gpu_peak_mib": 2260,
       "mean_gpu_utilization_pct": 76.80434782608695,
       "peak_board_power_w": 53.94,
-      "sampled_board_energy_estimate_wh": 0.11906323363749999
+      "sampled_board_energy_estimate_wh": 0.1190632336375
     }
   },
   {
@@ -214,7 +214,7 @@
       "sampled_total_gpu_peak_mib": 2200,
       "mean_gpu_utilization_pct": 94.5,
       "peak_board_power_w": 53.76,
-      "sampled_board_energy_estimate_wh": 0.1012696476361111
+      "sampled_board_energy_estimate_wh": 0.10126964763611111
     }
   },
   {
@@ -248,7 +248,7 @@
       "sampled_total_gpu_peak_mib": 3010,
       "mean_gpu_utilization_pct": 95.77678571428571,
       "peak_board_power_w": 52.93,
-      "sampled_board_energy_estimate_wh": 0.38180088703194465
+      "sampled_board_energy_estimate_wh": 0.3818008870319444
     }
   }
 ]

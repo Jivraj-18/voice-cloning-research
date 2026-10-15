@@ -1,6 +1,6 @@
 # Voice cloning: local model research
 
-A small, personal comparison of two local voice-cloning setups: **Serveurperso/OmniVoice-GGUF Q8_0** (base model `k2-fsa/OmniVoice`) and **ResembleAI/chatterbox Multilingual V3**. Both used the same eight scripts and the same private local reference recording. The recording itself is not included; generated audio does sound like the author's voice.
+A small, personal comparison of two local voice-cloning setups: **Serveurperso/OmniVoice-GGUF Q8_0** (base model `k2-fsa/OmniVoice`) and **ResembleAI/chatterbox Multilingual V3**. Both used the same eight scripts and the same reference recording, now included at [research/reference-input.wav](research/reference-input.wav) for reproducibility. This is the author's real voice; publishing it makes that recording public.
 
 ## Listening results
 
