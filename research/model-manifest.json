@@ -1,0 +1,23 @@
+{
+  "original_model": "k2-fsa/OmniVoice",
+  "gguf_repository": "Serveurperso/OmniVoice-GGUF",
+  "gguf_revision": "361609388ae572a820d085185bbbe2a2aac4b30e",
+  "quantization": "Q8_0",
+  "files": {
+    "omnivoice-base-Q8_0.gguf": {
+      "bytes": 656395008,
+      "sha256": "2882d887921798aea13d45236556bdf8012842ab6f8cd2690943eead6289f298"
+    },
+    "omnivoice-tokenizer-Q8_0.gguf": {
+      "bytes": 288889600,
+      "sha256": "75204fa566a8e30984e7a1066da6557184c9fd099c8f1bc0cb5b9415edfec255"
+    }
+  },
+  "runtime": {
+    "runtime_commit": "886fc079838ca7400cb2b42b36e2a65aa1daabe8",
+    "ggml_commit": "f3bc6505c4e2ede83a193e0fb4695938ff3804fd",
+    "sha256": "eca3fc177b617822ca47d03eba5b46a4b54a25f7d77d2dc0b71d068530cc2f08",
+    "backend": "CUDA",
+    "cuda_architecture": "sm_86"
+  }
+}

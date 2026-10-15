@@ -1,0 +1,8 @@
+{
+  "model": "tts-1",
+  "voice": "LOCAL_VOICE_PROFILE",
+  "input": "आज मैंने एक नया AI model try किया। Honestly, इसकी आवाज़ बिल्कुल मेरी जैसी लग रही है।",
+  "language": "Auto",
+  "response_format": "wav",
+  "seed": 101
+}

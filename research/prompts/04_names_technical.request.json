@@ -1,0 +1,8 @@
+{
+  "model": "tts-1",
+  "voice": "LOCAL_VOICE_PROFILE",
+  "input": "Jivraj is testing PostgreSQL, Kubernetes, and ElevenLabs on an NVIDIA RTX 2050.",
+  "language": "en",
+  "response_format": "wav",
+  "seed": 104
+}

@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-10-15T03:52:27.482157+00:00",
+  "audio_files_checked": 8,
+  "sha256_matches": 8,
+  "wav_duration_matches": 8,
+  "all_requests_successful": true,
+  "gpu_telemetry_present_for_each_case": true,
+  "browser_audio_metadata_loaded": 8,
+  "browser_review_save_and_export_verified": true,
+  "human_stress_test_reviews": "pending",
+  "source_reference_audio_in_bundle": false
+}

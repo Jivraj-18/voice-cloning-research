@@ -1,0 +1,30 @@
+--- a/backend/config/models.yaml
++++ b/backend/config/models.yaml
+@@ -42,7 +42,7 @@
+     role: TTS
+     engines: [omnivoice, omnivoice-subprocess]
+     size_gb: 2.4
+-    required: true
++    required: false
+     curated_on: [all]
+ 
+   - repo_id: "audio-cpp/audio.cpp-gguf"
+@@ -388,3 +388,18 @@
+     size_gb: 0.2
+     note: "Apple Silicon only — via mlx-audio backend."
+     platforms: [darwin-arm64]
++
++  # Local lightweight setup: only the two pinned Q8 files are needed.
++  - repo_id: "Serveurperso/OmniVoice-GGUF"
++    label: "OmniVoice GGUF Q8 (lightweight local cloning)"
++    role: TTS
++    engines: [omnivoice-gguf]
++    size_gb: 0.88
++    required: true
++    required_files:
++      - "omnivoice-base-Q8_0.gguf"
++      - "omnivoice-tokenizer-Q8_0.gguf"
++    allow_patterns:
++      - "omnivoice-base-Q8_0.gguf"
++      - "omnivoice-tokenizer-Q8_0.gguf"
++    note: "Personal/non-commercial model use; inherits upstream OmniVoice restrictions."

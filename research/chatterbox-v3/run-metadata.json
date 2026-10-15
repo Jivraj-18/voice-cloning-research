@@ -1,0 +1,54 @@
+{
+  "model": "ResembleAI/chatterbox",
+  "variant": "Chatterbox Multilingual V3",
+  "model_revision": "e2d6902dd4c1301892935d0a0277325551e8060e",
+  "code_revision": "5de7a54aa4e5e2baadb0182dde554908b48b85c2",
+  "runtime": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:18:37) [Clang 22.1.3 ]",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 2050",
+    "total_vram_bytes": 3953983488
+  },
+  "reference_audio": "local user voice reference; not copied to this bundle or uploaded",
+  "started_utc": "2026-10-15T04:45:32.454159+00:00",
+  "run_policy": "sequential; eight existing scripts; one explicit seed per case; no retry for the first five cases; recovery retries on case 6 after VRAM exhaustion",
+  "timing_boundary": "model download and model load recorded separately; generation time includes reference conditioning and synthesis; WAV writing excluded",
+  "language_mapping": {
+    "01_code_switch": "hi (Hindi; script includes English code-switching)",
+    "all other cases": "en"
+  },
+  "generation_settings": {
+    "exaggeration": 0.5,
+    "cfg_weight": 0.5,
+    "temperature": 0.8,
+    "repetition_penalty": 1.2,
+    "min_p": 0.05,
+    "top_p": 1.0
+  },
+  "model_download_seconds": 0.003190395000274293,
+  "model_load_seconds": 10.470316633996845,
+  "model_disk_bytes": 3208952137,
+  "finished_utc": "2026-10-15T04:46:37.882657+00:00",
+  "completed_cases": 8,
+  "successful_cases": 8,
+  "inference_precision": "FP16 model weights with CUDA FP16 autocast after initial FP32 out-of-memory failure",
+  "experiment_started_utc": "2026-10-15T04:42:00.719836+00:00",
+  "model_download_seconds_initial": 217.4,
+  "model_load_seconds_initial_fp32": 12.3,
+  "precision_by_case": {
+    "01_code_switch": "FP32",
+    "02_numbers": "FP32",
+    "03_emotion": "FP32",
+    "04_names_technical": "FP32",
+    "05_consistency_take_1": "FP32",
+    "06_consistency_take_2": "FP16 + autocast",
+    "07_consistency_take_3": "FP16 + autocast",
+    "08_long_narration": "FP16 + autocast"
+  },
+  "synthesis_seconds_total": 111.53256007002346,
+  "audio_seconds_total": 115.8,
+  "max_pytorch_allocated_vram_bytes": 3646554624,
+  "retained_nvidia_smi_samples": "gpu-samples-fp16-retry.csv; covers successful FP16 recovery run, not initial FP32 phase",
+  "human_review_status": "pending; user listening review not yet supplied"
+}

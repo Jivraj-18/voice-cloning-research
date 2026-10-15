@@ -1,0 +1,8 @@
+{
+  "model": "tts-1",
+  "voice": "LOCAL_VOICE_PROFILE",
+  "input": "I started this experiment with a simple question: can a small local model sound like me? Now I am checking whether it stays consistent. Listen to my accent, the pauses between sentences, and the way I finish each phrase. A familiar voice should remain familiar from the first word to the last.",
+  "language": "en",
+  "response_format": "wav",
+  "seed": 203
+}

@@ -1,0 +1,22 @@
+{
+  "test_count": 8,
+  "successful": 8,
+  "failed": 0,
+  "total_request_wall_seconds": 248.7457136239973,
+  "total_audio_seconds": 338.26,
+  "peak_total_gpu_memory_mib": 1632.0,
+  "peak_single_native_process_mib": 1528.0,
+  "gpu_reported_energy_estimate_wh": 2.8498398428671887,
+  "actual_software_api_paid_usd": 0,
+  "electricity_cost_measured": false,
+  "total_requested_characters": 2767,
+  "hypothetical_elevenlabs_at_1_credit_per_character": {
+    "credits": 2767,
+    "starter_monthly_usd": 6,
+    "monthly_credits": 30000,
+    "allocated_allowance_usd": 0.5534,
+    "is_actual_charge": false
+  },
+  "gpu_sampling_note": "200 ms target, sampled peaks only; shorter allocation spikes may be missed. Total GPU memory includes other GPU processes. Native process memory includes context/buffers, not just model weights.",
+  "energy_note": "Trapezoidal estimate from reported GPU board power during request samples; excludes CPU, screen, charger losses, startup, setup and idle gaps. Not a wall-power or electricity-bill measurement."
+}

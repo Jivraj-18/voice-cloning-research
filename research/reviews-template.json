@@ -1,0 +1,70 @@
+{
+  "initial_comment": "I loved the output of the model. It felt like my voice itself.",
+  "initial_comment_scope": "Earlier short clone, before the stress-test run",
+  "reviews": [
+    {
+      "id": "01_code_switch",
+      "likeness_1_to_5": null,
+      "content_accuracy_1_to_5": null,
+      "naturalness_1_to_5": null,
+      "comment": null,
+      "reviewed": false
+    },
+    {
+      "id": "02_numbers",
+      "likeness_1_to_5": null,
+      "content_accuracy_1_to_5": null,
+      "naturalness_1_to_5": null,
+      "comment": null,
+      "reviewed": false
+    },
+    {
+      "id": "03_emotion",
+      "likeness_1_to_5": null,
+      "content_accuracy_1_to_5": null,
+      "naturalness_1_to_5": null,
+      "comment": null,
+      "reviewed": false
+    },
+    {
+      "id": "04_names_technical",
+      "likeness_1_to_5": null,
+      "content_accuracy_1_to_5": null,
+      "naturalness_1_to_5": null,
+      "comment": null,
+      "reviewed": false
+    },
+    {
+      "id": "05_consistency_take_1",
+      "likeness_1_to_5": null,
+      "content_accuracy_1_to_5": null,
+      "naturalness_1_to_5": null,
+      "comment": null,
+      "reviewed": false
+    },
+    {
+      "id": "06_consistency_take_2",
+      "likeness_1_to_5": null,
+      "content_accuracy_1_to_5": null,
+      "naturalness_1_to_5": null,
+      "comment": null,
+      "reviewed": false
+    },
+    {
+      "id": "07_consistency_take_3",
+      "likeness_1_to_5": null,
+      "content_accuracy_1_to_5": null,
+      "naturalness_1_to_5": null,
+      "comment": null,
+      "reviewed": false
+    },
+    {
+      "id": "08_long_narration",
+      "likeness_1_to_5": null,
+      "content_accuracy_1_to_5": null,
+      "naturalness_1_to_5": null,
+      "comment": null,
+      "reviewed": false
+    }
+  ]
+}

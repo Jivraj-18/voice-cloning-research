@@ -1,0 +1,31 @@
+{
+  "started_utc": "2026-10-15T03:45:17.026418+00:00",
+  "health": {
+    "status": "ok",
+    "device": "cuda (NVIDIA GeForce RTX 2050)",
+    "version": "0.5.6"
+  },
+  "active_engine": "omnivoice-gguf",
+  "profile_id": "LOCAL_VOICE_PROFILE",
+  "host": {
+    "cpu": "Intel Core i5-12450H",
+    "logical_cpus": 12,
+    "ram_total_bytes": 16454356992,
+    "gpu_driver_version": "580.178.04"
+  },
+  "run_policy": "sequential, one request per case, no automatic retries; one second between requests",
+  "timing_boundary": "client wall time from immediately before POST until the full HTTP response body has arrived; excludes writing and analysing the output",
+  "native_runtime": "omnivoice.cpp 886fc079838ca7400cb2b42b36e2a65aa1daabe8, CUDA sm_86, native default 32 steps; quantized weights loaded in a new process per generation",
+  "gpu_sampling_target_ms": 200,
+  "voices_and_models_already_installed": true,
+  "finished_utc": "2026-10-15T03:49:34.072795+00:00",
+  "benchmark_client": {
+    "python": "3.12.3",
+    "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+    "packages": {
+      "requests": "2.34.2",
+      "numpy": "1.26.4",
+      "psutil": "5.9.8"
+    }
+  }
+}

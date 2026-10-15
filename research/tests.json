@@ -1,0 +1,66 @@
+[
+  {
+    "id": "01_code_switch",
+    "title": "Hindi-English code-switching",
+    "text": "आज मैंने एक नया AI model try किया। Honestly, इसकी आवाज़ बिल्कुल मेरी जैसी लग रही है।",
+    "language": "Auto",
+    "seed": 101,
+    "listen_for": "Listen for accent changes, pronunciation of English words inside Hindi, skipped words, and preservation of speaker identity."
+  },
+  {
+    "id": "02_numbers",
+    "title": "Numbers, dates, currency and abbreviations",
+    "text": "My appointment is on October 21st at 9:45 AM. The bill is ₹1,249.50, including GST.",
+    "language": "en",
+    "seed": 102,
+    "listen_for": "Check October twenty-first, nine forty-five A.M., the rupee amount including fifty paise, and G-S-T. Alternate natural readings are acceptable if the value stays correct."
+  },
+  {
+    "id": "03_emotion",
+    "title": "Questions and emotion",
+    "text": "You actually finished it? That’s incredible! Wait… did you delete the original recording?",
+    "language": "en",
+    "seed": 103,
+    "listen_for": "Listen for a questioning first phrase, excitement, a pause, and concern. Punctuation alone is being tested; no emotion tags or style instructions are supplied."
+  },
+  {
+    "id": "04_names_technical",
+    "title": "Names and technical vocabulary",
+    "text": "Jivraj is testing PostgreSQL, Kubernetes, and ElevenLabs on an NVIDIA RTX 2050.",
+    "language": "en",
+    "seed": 104,
+    "listen_for": "Check your name, PostgreSQL, Kubernetes, ElevenLabs, NVIDIA, R-T-X and the model number. Note spelling-out, omissions or odd stress."
+  },
+  {
+    "id": "05_consistency_take_1",
+    "title": "Consistency take 1",
+    "text": "I started this experiment with a simple question: can a small local model sound like me? Now I am checking whether it stays consistent. Listen to my accent, the pauses between sentences, and the way I finish each phrase. A familiar voice should remain familiar from the first word to the last.",
+    "language": "en",
+    "seed": 201,
+    "listen_for": "Compare takes 1–3 for identity, accent, pacing, completeness and noise. Different explicit seeds test variation across sampled takes."
+  },
+  {
+    "id": "06_consistency_take_2",
+    "title": "Consistency take 2",
+    "text": "I started this experiment with a simple question: can a small local model sound like me? Now I am checking whether it stays consistent. Listen to my accent, the pauses between sentences, and the way I finish each phrase. A familiar voice should remain familiar from the first word to the last.",
+    "language": "en",
+    "seed": 202,
+    "listen_for": "Compare against the identical script in takes 1 and 3; seed is the only requested generation setting changed."
+  },
+  {
+    "id": "07_consistency_take_3",
+    "title": "Consistency take 3",
+    "text": "I started this experiment with a simple question: can a small local model sound like me? Now I am checking whether it stays consistent. Listen to my accent, the pauses between sentences, and the way I finish each phrase. A familiar voice should remain familiar from the first word to the last.",
+    "language": "en",
+    "seed": 203,
+    "listen_for": "Compare against takes 1 and 2. Different WAV hashes alone do not establish an audible difference."
+  },
+  {
+    "id": "08_long_narration",
+    "title": "Long narration",
+    "text": "This morning, I decided to take the long way to the neighbourhood market. Usually, I rush through the same streets with headphones on, thinking about the next task. Today, I left the headphones at home and paid attention to the sounds around me.\n\nA bicycle bell rang behind me. Someone was watering plants on a balcony. At a small tea stall, two friends were arguing about whether the best ideas arrive early in the morning or late at night. I wanted to join their discussion, but the smell of fresh bread pulled me towards the bakery instead.\n\nInside, the shopkeeper asked, “The usual?” I almost said yes. Then I noticed a handwritten sign beside a tray of cinnamon rolls. “Actually, I'll try something different today,” I replied. It was a small decision, but it changed the rhythm of the morning.\n\nOn the walk home, I thought about the project waiting on my laptop. Yesterday, a short recording had become a voice that sounded surprisingly familiar: my own. The exciting part was hearing it speak a sentence I had never recorded. The harder question was whether it could keep sounding like me through a whole story.\n\nSo this paragraph is part of the experiment. Does the voice stay steady? Do the questions sound like questions? Are the pauses comfortable, or do they break the flow? Listen closely as one paragraph becomes the next.\n\nBy the time I reached home, the bread was still warm. I made a cup of tea, opened the laptop, and wrote down one simple rule: a convincing first sentence is a beginning. A convincing final sentence is the real test.",
+    "language": "en",
+    "seed": 301,
+    "listen_for": "Listen for voice drift, paragraph joins, missing or repeated sentences, uneven pacing, unnatural pauses, and whether the final paragraph still sounds like you."
+  }
+]

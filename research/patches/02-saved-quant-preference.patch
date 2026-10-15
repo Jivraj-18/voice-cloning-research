@@ -1,0 +1,13 @@
+--- a/backend/engines/omnivoice_gguf/backend.py
++++ b/backend/engines/omnivoice_gguf/backend.py
+@@ -378,6 +378,10 @@
+             (must be in ``quant_map.json``'s allow-list). If ``None`` or
+             ``"auto"``, the probe + ``quant_map.json`` decide.
+             """
++            # Local fix: the saved Settings override was never read here.
++            if quant_override is None:
++                from services.settings_store import get_quant_override
++                quant_override = get_quant_override()
+             self._quant_override = quant_override
+             self._quant_map: Optional[dict] = None
+ 

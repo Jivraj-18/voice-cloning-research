@@ -1,0 +1,8 @@
+{
+  "model": "tts-1",
+  "voice": "LOCAL_VOICE_PROFILE",
+  "input": "You actually finished it? That’s incredible! Wait… did you delete the original recording?",
+  "language": "en",
+  "response_format": "wav",
+  "seed": 103
+}

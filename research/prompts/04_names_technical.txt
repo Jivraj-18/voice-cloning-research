@@ -1,0 +1,1 @@
+Jivraj is testing PostgreSQL, Kubernetes, and ElevenLabs on an NVIDIA RTX 2050.

@@ -1,0 +1,8 @@
+{
+  "model": "tts-1",
+  "voice": "LOCAL_VOICE_PROFILE",
+  "input": "My appointment is on October 21st at 9:45 AM. The bill is ₹1,249.50, including GST.",
+  "language": "en",
+  "response_format": "wav",
+  "seed": 102
+}
